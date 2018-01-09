@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="trivia.js"></script>
+	<title>Trivia Quiz</title>
+	
+	<link type="text/css" rel="stylesheet" href="trivia.css">
+</head>
+<body LINK="F7DD5E" VLINK="F7DD5E" ALINK="F7DD5E" onLoad="main()">
+<h1>TV Show Trivia Quiz!!!</h1>
+
+<FORM name="view">  
+	<p>Question:</p> &nbsp;<input type="text" name="qnum" size="2" >&nbsp;<input type="button" name="go" value=" Next Question" onClick=main()>
+    <br>
+    <br>
+    <p>Answer:</p>&nbsp;&nbsp;&nbsp; <input type="text" id="qans" size="2">&nbsp;<input type="button" value="Submit Answer" onClick=submitAnswer()>
+	<br>
+    <br>
+    <p>Score:</p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id= "score" name="qscore" size="2">
+	<br>
+	<br>
+	<TEXTAREA COLS=31 ROWS=10 id="question"  wrap="virtual"></TEXTAREA> 
+</FORM>
+</body>
+
+</html>
+
