@@ -1,10 +1,7 @@
 body{height:100%;
    width:100%;
    background-image:url(images/pokemon.gif);
-   background-repeat:no-repeat; 
-   background-size:cover;
-   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
-   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+
 }
 
 h1 {
