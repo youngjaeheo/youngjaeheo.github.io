@@ -1,0 +1,1 @@
+var celebratesound = new Audio('sounds/celebrate.mp3');
